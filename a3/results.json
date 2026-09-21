@@ -1,0 +1,396 @@
+{
+  "convergence": {
+    "random": {
+      "25": {
+        "mean_compromised_fraction": 0.0057,
+        "majority_frequency": 0.0,
+        "runs": 25
+      },
+      "50": {
+        "mean_compromised_fraction": 0.0083,
+        "majority_frequency": 0.0,
+        "runs": 50
+      },
+      "100": {
+        "mean_compromised_fraction": 0.009,
+        "majority_frequency": 0.0,
+        "runs": 100
+      },
+      "200": {
+        "mean_compromised_fraction": 0.0098,
+        "majority_frequency": 0.0,
+        "runs": 200
+      }
+    },
+    "degree": {
+      "25": {
+        "mean_compromised_fraction": 0.2895,
+        "majority_frequency": 0.0,
+        "runs": 25
+      },
+      "50": {
+        "mean_compromised_fraction": 0.2895,
+        "majority_frequency": 0.0,
+        "runs": 50
+      },
+      "100": {
+        "mean_compromised_fraction": 0.2895,
+        "majority_frequency": 0.0,
+        "runs": 100
+      },
+      "200": {
+        "mean_compromised_fraction": 0.2895,
+        "majority_frequency": 0.0,
+        "runs": 200
+      }
+    },
+    "betweenness": {
+      "25": {
+        "mean_compromised_fraction": 0.294,
+        "majority_frequency": 0.0,
+        "runs": 25
+      },
+      "50": {
+        "mean_compromised_fraction": 0.294,
+        "majority_frequency": 0.0,
+        "runs": 50
+      },
+      "100": {
+        "mean_compromised_fraction": 0.294,
+        "majority_frequency": 0.0,
+        "runs": 100
+      },
+      "200": {
+        "mean_compromised_fraction": 0.294,
+        "majority_frequency": 0.0,
+        "runs": 200
+      }
+    }
+  },
+  "theta_sweep": [
+    {
+      "theta": 0.2,
+      "majority_freq": 0.005,
+      "mean_comp_frac": 0.016024498886414253,
+      "std_comp_frac": 0.04651947508511497
+    },
+    {
+      "theta": 0.3,
+      "majority_freq": 0.005,
+      "mean_comp_frac": 0.012583518930957683,
+      "std_comp_frac": 0.03820215914407237
+    },
+    {
+      "theta": 0.4,
+      "majority_freq": 0.0,
+      "mean_comp_frac": 0.009799554565701559,
+      "std_comp_frac": 0.01988428886148725
+    },
+    {
+      "theta": 0.5,
+      "majority_freq": 0.0,
+      "mean_comp_frac": 0.009565701559020045,
+      "std_comp_frac": 0.01894247978981623
+    },
+    {
+      "theta": 0.6,
+      "majority_freq": 0.0,
+      "mean_comp_frac": 0.006202672605790645,
+      "std_comp_frac": 0.008421764154713764
+    }
+  ],
+  "bot_sweep": {
+    "random": [
+      {
+        "bots": 0,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.0,
+        "std_comp_frac": 0.0
+      },
+      {
+        "bots": 1,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.005556792873051225,
+        "std_comp_frac": 0.01804558400187537
+      },
+      {
+        "bots": 2,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.009799554565701559,
+        "std_comp_frac": 0.01988428886148725
+      },
+      {
+        "bots": 3,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.01329621380846325,
+        "std_comp_frac": 0.020454736324721917
+      },
+      {
+        "bots": 5,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.02214922048997773,
+        "std_comp_frac": 0.03022493890499787
+      },
+      {
+        "bots": 10,
+        "majority_freq": 0.005,
+        "mean_comp_frac": 0.04720489977728286,
+        "std_comp_frac": 0.058184912777968376
+      }
+    ],
+    "degree": [
+      {
+        "bots": 0,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.0,
+        "std_comp_frac": 0.0
+      },
+      {
+        "bots": 1,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.16035634743875282,
+        "std_comp_frac": 2.7755575615628914e-17
+      },
+      {
+        "bots": 2,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.28953229398663705,
+        "std_comp_frac": 5.551115123125783e-17
+      },
+      {
+        "bots": 3,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.39643652561247217,
+        "std_comp_frac": 0.0
+      },
+      {
+        "bots": 5,
+        "majority_freq": 1.0,
+        "mean_comp_frac": 0.5122494432071268,
+        "std_comp_frac": 1.1102230246251565e-16
+      },
+      {
+        "bots": 10,
+        "majority_freq": 1.0,
+        "mean_comp_frac": 0.6547884187082406,
+        "std_comp_frac": 0.0
+      }
+    ],
+    "betweenness": [
+      {
+        "bots": 0,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.0,
+        "std_comp_frac": 0.0
+      },
+      {
+        "bots": 1,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.1915367483296214,
+        "std_comp_frac": 0.0
+      },
+      {
+        "bots": 2,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.2939866369710468,
+        "std_comp_frac": 5.551115123125783e-17
+      },
+      {
+        "bots": 3,
+        "majority_freq": 0.0,
+        "mean_comp_frac": 0.46770601336302886,
+        "std_comp_frac": 1.1102230246251565e-16
+      },
+      {
+        "bots": 5,
+        "majority_freq": 1.0,
+        "mean_comp_frac": 0.5723830734966594,
+        "std_comp_frac": 1.1102230246251565e-16
+      },
+      {
+        "bots": 10,
+        "majority_freq": 1.0,
+        "mean_comp_frac": 0.6770601336302897,
+        "std_comp_frac": 2.220446049250313e-16
+      }
+    ]
+  },
+  "u_sweep": [
+    {
+      "unintentional": 0,
+      "majority_altered_freq": 0.0,
+      "mean_altered_frac": 0.0,
+      "std_altered_frac": 0.0
+    },
+    {
+      "unintentional": 5,
+      "majority_altered_freq": 0.0,
+      "mean_altered_frac": 0.0,
+      "std_altered_frac": 0.0
+    },
+    {
+      "unintentional": 10,
+      "majority_altered_freq": 0.0,
+      "mean_altered_frac": 0.0,
+      "std_altered_frac": 0.0
+    },
+    {
+      "unintentional": 20,
+      "majority_altered_freq": 0.0,
+      "mean_altered_frac": 0.0,
+      "std_altered_frac": 0.0
+    },
+    {
+      "unintentional": 30,
+      "majority_altered_freq": 0.0,
+      "mean_altered_frac": 0.0,
+      "std_altered_frac": 0.0
+    },
+    {
+      "unintentional": 40,
+      "majority_altered_freq": 0.0,
+      "mean_altered_frac": 0.0,
+      "std_altered_frac": 0.0
+    },
+    {
+      "unintentional": 50,
+      "majority_altered_freq": 0.0,
+      "mean_altered_frac": 0.0,
+      "std_altered_frac": 0.0
+    }
+  ],
+  "lolbas": {
+    "total_lolbin_nodes": 30,
+    "nodes": [
+      "proc::c:/windows/system32/windowspowershell/v1.0/powershell.exe",
+      "proc::c:/windows/system32/cmd.exe",
+      "proc::c:/windows/system32/rundll32.exe",
+      "proc::c:/windows/system32/esentutl.exe",
+      "proc::c:/windows/system32/findstr.exe",
+      "proc::c:/windows/system32/wbem/wmic.exe",
+      "proc::c:/windows/system32/curl.exe",
+      "proc::c:/windows/system32/wscript.exe",
+      "proc::c:/windows/system32/regsvr32.exe",
+      "proc::c:/cygwin64/bin/bash.exe",
+      "proc::c:/cygwin64/bin/grep.exe",
+      "proc::c:/cygwin64/bin/sh.exe",
+      "proc::c:/windows/syswow64/windowspowershell/v1.0/powershell.exe",
+      "proc::c:/windows/syswow64/rundll32.exe",
+      "proc::c:/windows/system32/mshta.exe",
+      "proc::c:/windows/syswow64/mshta.exe",
+      "proc::c:/windows/system32/cscript.exe",
+      "proc::c:/windows/syswow64/cmd.exe",
+      "proc::c:/windows/system32/certutil.exe",
+      "proc::c:/windows/system32/bitsadmin.exe",
+      "proc::c:/windows/microsoft.net/framework/v4.0.30319/msbuild.exe",
+      "proc::c:/windows/microsoft.net/framework64/v4.0.30319/msbuild.exe",
+      "proc::c:/temp/msbuild.exe",
+      "proc::c:/windows/system32/pcalua.exe",
+      "proc::c:/windows/microsoft.net/framework64/v4.0.30319/installutil.exe",
+      "proc::c:/windows/microsoft.net/framework/v4.0.30319/installutil.exe",
+      "proc::c:/windows/syswow64/regsvr32.exe",
+      "proc::c:/windows/system32/diskshadow.exe",
+      "proc::c:/windows/syswow64/cscript.exe",
+      "proc::c:/windows/syswow64/wbem/wmic.exe"
+    ],
+    "centralities": {
+      "proc::c:/windows/system32/windowspowershell/v1.0/powershell.exe": {
+        "degree": 92
+      },
+      "proc::c:/windows/system32/cmd.exe": {
+        "degree": 144
+      },
+      "proc::c:/windows/system32/rundll32.exe": {
+        "degree": 23
+      },
+      "proc::c:/windows/system32/esentutl.exe": {
+        "degree": 1
+      },
+      "proc::c:/windows/system32/findstr.exe": {
+        "degree": 2
+      },
+      "proc::c:/windows/system32/wbem/wmic.exe": {
+        "degree": 5
+      },
+      "proc::c:/windows/system32/curl.exe": {
+        "degree": 2
+      },
+      "proc::c:/windows/system32/wscript.exe": {
+        "degree": 3
+      },
+      "proc::c:/windows/system32/regsvr32.exe": {
+        "degree": 5
+      },
+      "proc::c:/cygwin64/bin/bash.exe": {
+        "degree": 28
+      },
+      "proc::c:/cygwin64/bin/grep.exe": {
+        "degree": 3
+      },
+      "proc::c:/cygwin64/bin/sh.exe": {
+        "degree": 6
+      },
+      "proc::c:/windows/syswow64/windowspowershell/v1.0/powershell.exe": {
+        "degree": 10
+      },
+      "proc::c:/windows/syswow64/rundll32.exe": {
+        "degree": 6
+      },
+      "proc::c:/windows/system32/mshta.exe": {
+        "degree": 6
+      },
+      "proc::c:/windows/syswow64/mshta.exe": {
+        "degree": 3
+      },
+      "proc::c:/windows/system32/cscript.exe": {
+        "degree": 5
+      },
+      "proc::c:/windows/syswow64/cmd.exe": {
+        "degree": 13
+      },
+      "proc::c:/windows/system32/certutil.exe": {
+        "degree": 3
+      },
+      "proc::c:/windows/system32/bitsadmin.exe": {
+        "degree": 2
+      },
+      "proc::c:/windows/microsoft.net/framework/v4.0.30319/msbuild.exe": {
+        "degree": 2
+      },
+      "proc::c:/windows/microsoft.net/framework64/v4.0.30319/msbuild.exe": {
+        "degree": 3
+      },
+      "proc::c:/temp/msbuild.exe": {
+        "degree": 2
+      },
+      "proc::c:/windows/system32/pcalua.exe": {
+        "degree": 2
+      },
+      "proc::c:/windows/microsoft.net/framework64/v4.0.30319/installutil.exe": {
+        "degree": 1
+      },
+      "proc::c:/windows/microsoft.net/framework/v4.0.30319/installutil.exe": {
+        "degree": 1
+      },
+      "proc::c:/windows/syswow64/regsvr32.exe": {
+        "degree": 2
+      },
+      "proc::c:/windows/system32/diskshadow.exe": {
+        "degree": 2
+      },
+      "proc::c:/windows/syswow64/cscript.exe": {
+        "degree": 2
+      },
+      "proc::c:/windows/syswow64/wbem/wmic.exe": {
+        "degree": 1
+      }
+    }
+  },
+  "footprint_example": {
+    "FILE": 0,
+    "REG": 0,
+    "DLL": 0,
+    "IP": 0,
+    "Total_Context": 0
+  }
+}
