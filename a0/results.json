@@ -1,0 +1,363 @@
+{
+  "composition": {
+    "node_types": {
+      "proc": 508,
+      "file": 31574,
+      "reg": 15197,
+      "ip": 727,
+      "dll": 1060
+    },
+    "total_nodes": 49066,
+    "total_edges": 55340,
+    "edge_types": {
+      "spawned": 735,
+      "set_value": 15369,
+      "wrote": 32545,
+      "connected": 1133,
+      "loaded": 5456,
+      "executed_as": 102
+    },
+    "density_directed": 2.3e-05,
+    "density_undirected": 4.6e-05,
+    "num_wcc": 14,
+    "largest_wcc_size": 43086,
+    "largest_wcc_fraction": 0.8781,
+    "self_loops": 30
+  },
+  "degree_metrics": {
+    "mean_degree": 2.253658,
+    "median_degree": 1.0,
+    "max_degree": 8488,
+    "min_degree": 1,
+    "variance": 4426.351179,
+    "std_dev": 66.530829,
+    "quantiles": {
+      "25%": 1.0,
+      "75%": 1.0,
+      "90%": 1.0,
+      "99%": 4.0
+    },
+    "top_hubs": [
+      {
+        "node": "proc::c:/windows/system32/compattelrunner.exe",
+        "degree": 8488
+      },
+      {
+        "node": "proc::c:/program files/microsoft office/root/office16/winword.exe",
+        "degree": 6331
+      },
+      {
+        "node": "proc::c:/windows/system32/windowspowershell/v1.0/powershell.exe",
+        "degree": 5615
+      },
+      {
+        "node": "proc::c:/program files/common files/microsoft shared/clicktorun/officeclicktorun.exe",
+        "degree": 4360
+      },
+      {
+        "node": "proc::c:/program files/mozilla firefox/firefox.exe",
+        "degree": 4267
+      },
+      {
+        "node": "proc::c:/windows/system32/svchost.exe",
+        "degree": 3277
+      },
+      {
+        "node": "proc::c:/windows/microsoft.net/framework/v4.0.30319/mscorsvw.exe",
+        "degree": 3006
+      },
+      {
+        "node": "proc::c:/windows/microsoft.net/framework64/v4.0.30319/mscorsvw.exe",
+        "degree": 2677
+      },
+      {
+        "node": "proc::c:/windows/explorer.exe",
+        "degree": 1921
+      },
+      {
+        "node": "proc::c:/windows/system32/wbem/wmiprvse.exe",
+        "degree": 1183
+      }
+    ],
+    "degree_histogram": {
+      "3277": 1,
+      "4": 88,
+      "967": 1,
+      "99": 2,
+      "5615": 1,
+      "1": 46977,
+      "199": 1,
+      "2": 1314,
+      "729": 1,
+      "22": 6,
+      "76": 2,
+      "55": 3,
+      "153": 1,
+      "5": 52,
+      "78": 4,
+      "12": 15,
+      "27": 5,
+      "213": 1,
+      "3": 199,
+      "194": 1,
+      "6": 47,
+      "70": 2,
+      "176": 1,
+      "43": 3,
+      "17": 7,
+      "9": 13,
+      "118": 1,
+      "26": 5,
+      "59": 2,
+      "45": 4,
+      "44": 6,
+      "49": 3,
+      "15": 17,
+      "1183": 1,
+      "57": 4,
+      "23": 5,
+      "7": 45,
+      "164": 2,
+      "32": 4,
+      "1921": 1,
+      "226": 1,
+      "24": 3,
+      "103": 2,
+      "36": 2,
+      "41": 5,
+      "13": 13,
+      "16": 13,
+      "10": 9,
+      "95": 2,
+      "18": 9,
+      "81": 1,
+      "33": 4,
+      "19": 7,
+      "20": 2,
+      "35": 1,
+      "2677": 1,
+      "3006": 1,
+      "4267": 1,
+      "64": 2,
+      "11": 9,
+      "37": 1,
+      "28": 7,
+      "52": 1,
+      "38": 2,
+      "60": 2,
+      "74": 3,
+      "50": 3,
+      "8": 30,
+      "66": 3,
+      "82": 2,
+      "77": 2,
+      "21": 2,
+      "25": 4,
+      "68": 1,
+      "75": 3,
+      "94": 1,
+      "104": 1,
+      "14": 8,
+      "47": 6,
+      "40": 4,
+      "51": 1,
+      "65": 1,
+      "42": 1,
+      "69": 2,
+      "111": 1,
+      "498": 1,
+      "238": 1,
+      "435": 1,
+      "88": 2,
+      "46": 4,
+      "571": 1,
+      "624": 1,
+      "229": 1,
+      "4360": 1,
+      "272": 1,
+      "8488": 1,
+      "217": 1,
+      "6331": 1,
+      "58": 3,
+      "86": 1,
+      "163": 1,
+      "71": 2,
+      "269": 1,
+      "62": 1,
+      "745": 1,
+      "34": 3,
+      "112": 1,
+      "242": 1,
+      "54": 1,
+      "30": 1,
+      "308": 1,
+      "119": 1,
+      "79": 1,
+      "39": 1
+    }
+  },
+  "centralities": {
+    "degree_centrality_top": [
+      {
+        "node": "proc::c:/windows/system32/compattelrunner.exe",
+        "score": 0.172995
+      },
+      {
+        "node": "proc::c:/program files/microsoft office/root/office16/winword.exe",
+        "score": 0.129033
+      },
+      {
+        "node": "proc::c:/windows/system32/windowspowershell/v1.0/powershell.exe",
+        "score": 0.11444
+      },
+      {
+        "node": "proc::c:/program files/common files/microsoft shared/clicktorun/officeclicktorun.exe",
+        "score": 0.088862
+      },
+      {
+        "node": "proc::c:/program files/mozilla firefox/firefox.exe",
+        "score": 0.086966
+      }
+    ],
+    "pagerank_top": [
+      {
+        "node": "ip::34.218.235.219",
+        "score": 0.000245
+      },
+      {
+        "node": "proc::c:/windows/system32/cmd.exe",
+        "score": 0.00019
+      },
+      {
+        "node": "ip::0:0:0:0:0:0:0:1",
+        "score": 0.000171
+      },
+      {
+        "node": "dll::c:/windows/system32/cryptdll.dll",
+        "score": 0.000158
+      },
+      {
+        "node": "proc::c:/windows/system32/windowspowershell/v1.0/powershell.exe",
+        "score": 0.000153
+      }
+    ],
+    "pagerank_top_node": "ip::34.218.235.219"
+  },
+  "paths": {
+    "component_used": "Largest Connected Component (Simple Undirected View)",
+    "component_nodes": 43086,
+    "avg_shortest_path_estimated": 4.096098,
+    "diameter_estimated": 15,
+    "radius_estimated": 8
+  },
+  "clustering": {
+    "average_clustering_coefficient": 0.019732,
+    "transitivity": 0.00015
+  },
+  "assortativity": {
+    "degree_assortativity": -0.491435,
+    "categorical_assortativity_directed": -0.002947,
+    "categorical_assortativity_undirected": -0.555927,
+    "mixing_matrix_raw": {
+      "labels": [
+        "dll",
+        "file",
+        "ip",
+        "proc",
+        "reg"
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          102,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          5456,
+          32545,
+          1133,
+          735,
+          15369
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "mixing_matrix_normalized": {
+      "labels": [
+        "dll",
+        "file",
+        "ip",
+        "proc",
+        "reg"
+      ],
+      "matrix": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0988,
+          0.5892,
+          0.0205,
+          0.0133,
+          0.2782
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "interpretation": "Rows = Source Type, Cols = Target Type. Values = P(Target|Source)"
+    }
+  },
+  "random_reference": {
+    "n": 49066,
+    "m": 55289,
+    "mean_degree": 2.253658,
+    "degree_variance": 2.247849,
+    "avg_clustering": 1.4e-05,
+    "avg_shortest_path_estimated": 12.710201
+  }
+}
